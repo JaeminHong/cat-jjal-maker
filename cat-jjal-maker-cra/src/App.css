@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+.main-card button {
+  position: relative;
+  left: -45px;
+  bottom: 15px;
+}
+.favorites {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.form-input {
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+  border-color: #343435;
+  outline: none;
+  border-style: solid;
+  color: #343435;
+}
+.form-input::placeholder {
+  color: #343435;
+}
+.form-button {
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #343435;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.colored {
+  color: #343435;
+}
