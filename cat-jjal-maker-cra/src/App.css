@@ -1,10 +1,15 @@
 body {
   text-align: center;
 }
-.main-card button {
+.main-card {
   position: relative;
-  left: -45px;
-  bottom: 15px;
+  display: inline-block;
+}
+.main-card button {
+  position: absolute;
+  top: 92%;
+  left: 93%;
+  transform: translate(-50%, -50%);
 }
 .favorites {
   list-style: none;
