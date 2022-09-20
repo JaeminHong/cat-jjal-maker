@@ -4,11 +4,12 @@ const MainCard = ({img, onHeartClick, alreadyFavorite}) => {
 	return (
 	  <div className="main-card">
 		<img
+		className="img-width"
 		src={img}
 		alt="고양이"
-		width="400"
 		/>
 		<button 
+		 className="pointer"
 		 onClick={onHeartClick}
 		>{heartIcon}
 		</button>

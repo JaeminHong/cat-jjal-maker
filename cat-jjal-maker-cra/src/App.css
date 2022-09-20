@@ -5,11 +5,13 @@ body {
   position: relative;
   display: inline-block;
 }
+.main-card .img-width {
+  width: 95%;
+}
 .main-card button {
   position: absolute;
-  top: 92%;
-  left: 93%;
-  transform: translate(-50%, -50%);
+  right: 20px;
+  bottom: 15px;
 }
 .favorites {
   list-style: none;
@@ -44,4 +46,7 @@ body {
 }
 .colored {
   color: #343435;
+}
+.pointer {
+  cursor: pointer;
 }
