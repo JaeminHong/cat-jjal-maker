@@ -12,6 +12,10 @@ body {
   position: absolute;
   right: 20px;
   bottom: 15px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: calc(10px + 3.5vmin);
 }
 .favorites {
   list-style: none;
@@ -49,4 +53,7 @@ body {
 }
 .pointer {
   cursor: pointer;
+}
+h1.colored {
+  font-size: 2.7vmax;
 }
